@@ -1,0 +1,13 @@
+#!/usr/bin/env node 
+
+'use strict'
+
+function randint(min,max){ 
+  return Math.floor((Math.random() * (max - min + 1)) + min);
+}
+
+for (var i =0; i< 6; i++){
+  var somerand = randint(1,6);
+  console.log("D6" + somerand);
+}
+

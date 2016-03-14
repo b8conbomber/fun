@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require("skilstak-colors");
+
+console.log(c.clear);
+
+for (var n =0; n < 1982394779854789245975792398758985989534; n++) {
+  console.log(c.multi( + n + "bagers"));
+}
+
